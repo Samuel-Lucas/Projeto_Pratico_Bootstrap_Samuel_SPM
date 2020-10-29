@@ -44,9 +44,6 @@ i {
 }
 
 #boas_vindas button {
-    background-color: blue;
-    margin-left: 375px;
-    border-radius: 20px;
     animation-name: opacidade;
     animation-delay: 2s;
     animation-duration: 1s;
@@ -78,10 +75,13 @@ footer ul {
 
 /* Página de produtos */
 
-#produtos {
+#container {
     width: 90%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
 }
 
 #container img {
